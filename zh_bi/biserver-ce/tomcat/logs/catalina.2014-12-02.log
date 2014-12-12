@@ -1,0 +1,278 @@
+2014-12-2 11:31:07 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\apache-ant-1.9.4\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;E:\DevelopmentTools\apache-maven-3.2.3\bin;%JAVA_HOME%\jre\bin;%JAVA_HOME%\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_43\bin;D:\Program Files (x86)\OpenVPN\bin;.
+2014-12-2 11:31:08 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8080
+2014-12-2 11:31:08 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 2300 ms
+2014-12-2 11:31:08 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2014-12-2 11:31:08 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.39
+2014-12-2 11:31:08 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory pentaho
+2014-12-2 11:31:09 org.apache.catalina.startup.ContextConfig validateSecurityRoles
+警告: Security role name PENTAHO_ADMIN used in an <auth-constraint> without being defined in a <security-role>
+2014-12-2 11:32:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory pentaho-style
+2014-12-2 11:32:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory ROOT
+2014-12-2 11:32:14 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory sw-style
+2014-12-2 11:32:14 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-8080
+2014-12-2 11:32:14 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8009
+2014-12-2 11:32:14 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/16  config=null
+2014-12-2 11:32:14 org.apache.catalina.startup.Catalina start
+信息: Server startup in 66352 ms
+2014-12-2 11:33:46 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, xcdf, of type org.pentaho.cdf.CdfContentGenerator as a root resource class
+2014-12-2 11:33:46 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, xcdf.mobile, of type org.pentaho.cdf.CdfContentGenerator as a root resource class
+2014-12-2 11:33:46 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, storage, of type org.pentaho.cdf.storage.StorageApi as a root resource class
+2014-12-2 11:33:46 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, comments, of type org.pentaho.cdf.comments.CommentsApi as a root resource class
+2014-12-2 11:33:46 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, settings, of type org.pentaho.cdf.settings.SettingsApi as a root resource class
+2014-12-2 11:33:46 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, views, of type org.pentaho.cdf.views.ViewsApi as a root resource class
+2014-12-2 11:33:46 com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+信息: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+2014-12-2 11:33:47 com.sun.jersey.spi.inject.Errors processErrorMessages
+警告: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfContentGenerator.getResource(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfContentGenerator.clearCache(javax.servlet.http.HttpServletResponse), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfContentGenerator.export(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfContentGenerator.callAction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfContentGenerator.viewAction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfContentGenerator.getJSONSolution(java.lang.String,java.lang.String,java.lang.String,int,boolean,java.lang.String,javax.servlet.http.HttpServletResponse) throws org.pentaho.cdf.InvalidCdfOperationException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.comments.CommentsApi.add(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.comments.CommentsApi.list(java.lang.String,int,int,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.comments.CommentsApi.delete(int,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.comments.CommentsApi.archive(int,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.settings.SettingsApi.get(java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.settings.SettingsApi.set(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.views.ViewsApi.listViews(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.views.ViewsApi.saveView(java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.views.ViewsApi.deleteView(java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, pt.webdetails.cgg.CggService#0, of type pt.webdetails.cgg.CggService as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+信息: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+2014-12-2 11:33:47 com.sun.jersey.spi.inject.Errors processErrorMessages
+警告: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void pt.webdetails.cgg.CggService.draw(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Long,java.lang.Long,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatasourceResource#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatasourceResource as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.AnalysisDatasourceService#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.AnalysisDatasourceService as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.MetadataDatasourceService#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.MetadataDatasourceService as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.ConnectionService#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.ConnectionService as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseDialectService#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseDialectService as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.PentahoJAXBContextResolver#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.PentahoJAXBContextResolver as a provider class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DataAccessPermissionResource#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DataAccessPermissionResource as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseConnectionReaderWriter#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseConnectionReaderWriter as a provider class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseConnectionListReaderWriter#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseConnectionListReaderWriter as a provider class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, xml-metadataServiceDA/org.pentaho.platform.dataaccess.metadata.service.MetadataService, of type org.pentaho.platform.dataaccess.metadata.service.MetadataService as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, gwt-metadataServiceDA/org.pentaho.platform.dataaccess.metadata.service.MetadataService, of type org.pentaho.platform.dataaccess.metadata.service.MetadataService as a root resource class
+2014-12-2 11:33:47 com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+信息: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+2014-12-2 11:33:51 com.sun.xml.ws.server.MonitorBase createRoot
+信息: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-datasourceMgmtService-datasourceMgmtServicePort
+2014-12-2 11:33:51 com.sun.xml.ws.server.MonitorBase createRoot
+信息: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-userRoleService-userRoleServicePort
+2014-12-2 11:33:51 com.sun.xml.ws.server.MonitorBase createRoot
+信息: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-userRoleListService-userRoleListServicePort
+2014-12-2 11:33:51 com.sun.xml.ws.server.MonitorBase createRoot
+信息: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-authorizationPolicy-authorizationPolicyPort
+2014-12-2 11:33:51 com.sun.xml.ws.server.MonitorBase createRoot
+信息: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-roleBindingDao-roleBindingDaoPort
+2014-12-2 11:33:51 com.sun.xml.ws.server.MonitorBase createRoot
+信息: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-Scheduler-SchedulerPort
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.JAXBContextResolver#0, of type org.pentaho.platform.web.http.api.resources.JAXBContextResolver as a provider class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.RootResource#0, of type org.pentaho.platform.web.http.api.resources.RootResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.DirectoryResource#0, of type org.pentaho.platform.web.http.api.resources.DirectoryResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.UserRoleDaoResource#0, of type org.pentaho.platform.web.http.api.resources.UserRoleDaoResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.UserRoleListResource#0, of type org.pentaho.platform.web.http.api.resources.UserRoleListResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.FileResource#0, of type org.pentaho.platform.web.http.api.resources.FileResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.EmailResource#0, of type org.pentaho.platform.web.http.api.resources.EmailResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SessionResource#0, of type org.pentaho.platform.web.http.api.resources.SessionResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SchedulerResource#0, of type org.pentaho.platform.web.http.api.resources.SchedulerResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.BlockoutResource#0, of type org.pentaho.platform.web.http.api.resources.BlockoutResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.RepositoryResource#0, of type org.pentaho.platform.web.http.api.resources.RepositoryResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.RepositoryImportResource#0, of type org.pentaho.platform.web.http.api.resources.RepositoryImportResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.PluginResource#0, of type org.pentaho.platform.web.http.api.resources.PluginResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.PluginManagerResource#0, of type org.pentaho.platform.web.http.api.resources.PluginManagerResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemPermissionsResource#0, of type org.pentaho.platform.web.http.api.resources.SystemPermissionsResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemUsersResource#0, of type org.pentaho.platform.web.http.api.resources.SystemUsersResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemRolesResource#0, of type org.pentaho.platform.web.http.api.resources.SystemRolesResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemResource#0, of type org.pentaho.platform.web.http.api.resources.SystemResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutputProvider#0, of type org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutputProvider as a provider class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.ThemeResource#0, of type org.pentaho.platform.web.http.api.resources.ThemeResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemRefreshResource#0, of type org.pentaho.platform.web.http.api.resources.SystemRefreshResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.VersionResource#0, of type org.pentaho.platform.web.http.api.resources.VersionResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.UserConsoleResource#0, of type org.pentaho.platform.web.http.api.resources.UserConsoleResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.UserSettingsResource#0, of type org.pentaho.platform.web.http.api.resources.UserSettingsResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.RepositoryPublishResource#0, of type org.pentaho.platform.web.http.api.resources.RepositoryPublishResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+信息: Registering Spring bean, org.pentaho.platform.web.http.api.resources.AuthorizationActionResource#0, of type org.pentaho.platform.web.http.api.resources.AuthorizationActionResource as a root resource class
+2014-12-2 11:33:52 com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+信息: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+2014-12-2 11:33:52 com.sun.jersey.spi.inject.Errors processErrorMessages
+警告: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public javax.ws.rs.core.Response org.pentaho.platform.web.http.api.resources.EmailResource.deleteEmailConfig(org.pentaho.platform.plugin.services.email.EmailConfiguration), should not consume any entity.
+  WARNING: A HTTP GET method, public javax.ws.rs.core.Response org.pentaho.platform.web.http.api.resources.BlockoutResource.willFire(org.pentaho.platform.web.http.api.resources.JobScheduleRequest), should not consume any entity.
+2014-12-2 13:40:36 org.apache.coyote.http11.Http11Protocol pause
+信息: Pausing Coyote HTTP/1.1 on http-8080
+2014-12-2 13:40:37 org.apache.catalina.core.StandardService stop
+信息: Stopping service Catalina
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [/pentaho] registered the JDBC driver [org.apache.hadoop.hive.jdbc.HiveDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [/pentaho] registered the JDBC driver [org.apache.hive.jdbc.HiveDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [/pentaho] registered the JDBC driver [org.apache.hive.jdbc.ImpalaDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [/pentaho] registered the JDBC driver [nl.cwi.monetdb.jdbc.MonetDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/pentaho] appears to have started a thread named [HSQLDB Timer @418a9fc8] but has failed to stop it. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/pentaho] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/pentaho] appears to have started a thread named [org.apache.commons.vfs.cache.SoftRefFilesCache$SoftRefReleaseThread] but has failed to stop it. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/pentaho] appears to have started a thread named [AWT-Windows] but has failed to stop it. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/pentaho] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/pentaho] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/pentaho] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/pentaho] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@472deca6]) and a value of type [org.pentaho.platform.engine.core.system.StandaloneSession] (value [org.pentaho.platform.engine.core.system.StandaloneSession@3e72d5c0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.runtime.Coordinator$1] (value [com.sun.xml.bind.v2.runtime.Coordinator$1@180baacc]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@25fa4369]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@515fb5f9]) and a value of type [org.pentaho.platform.plugin.services.importexport.ImportSession] (value [org.pentaho.platform.plugin.services.importexport.ImportSession@62a4182b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@32ee1a5]) and a value of type [org.pentaho.platform.plugin.services.importexport.ImportSession] (value [org.pentaho.platform.plugin.services.importexport.ImportSession@62a4182b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7ae01944]) and a value of type [org.pentaho.platform.plugin.services.importexport.ImportSession] (value [org.pentaho.platform.plugin.services.importexport.ImportSession@62a4182b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [org.pentaho.platform.plugin.services.pluginmgr.PluginMessageLogger$1] (value [org.pentaho.platform.plugin.services.pluginmgr.PluginMessageLogger$1@e9afe62]) and a value of type [java.util.ArrayList] (value [[Discovered plugin cgg in cgg, This plugin provides: 0 menu customizations, 1 content types, 0 content generators, 0 overlays, and {4} lifecycle listeners, Discovered plugin common-ui in common-ui, This plugin provides: 0 menu customizations, 3 content types, 0 content generators, 0 overlays, and {4} lifecycle listeners, Discovered plugin data-access in data-access, This plugin provides: 0 menu customizations, 0 content types, 1 content generators, 0 overlays, and {4} lifecycle listeners, Discovered plugin BI Server default plugin in default-plugin, This plugin provides: 0 menu customizations, 3 content types, 0 content generators, 0 overlays, and {4} lifecycle listeners, Discovered plugin pentaho-cdf in pentaho-cdf, Content type registered: xcdf - Dashboard, This plugin provides: 1 menu customizations, 0 content types, 0 content generators, 1 overlays, and {4} lifecycle listeners, Discovered plugin jpivot in pentaho-jpivot-plugin, Content type registered: xjpivot - JPivot View, Content generator not registered: xjpivot.editor for plugin pentaho-jpivot-plugin, This plugin provides: 1 menu customizations, 0 content types, 1 content generators, 0 overlays, and {4} lifecycle listeners, Discovered plugin pdi-platform-plugin in pentaho-pdi-platform-plugin, Content type registered: ktr - Kettle Transformation, Content type registered: kjb - Kettle Job, This plugin provides: 2 menu customizations, 0 content types, 0 content generators, 1 overlays, and {4} lifecycle listeners, Discovered plugin reporting in reporting, Content type registered: prpt - Pentaho Report, This plugin provides: 1 menu customizations, 0 content types, 0 content generators, 1 overlays, and {4} lifecycle listeners, Discovered plugin test-plugin-perspective in test-plugin-perspective, This plugin provides: 0 menu customizations, 0 content types, 0 content generators, 0 overlays, and {4} lifecycle listeners, Discovered plugin url in url, Content type registered: url - URL, This plugin provides: 1 menu customizations, 0 content types, 0 content generators, 0 overlays, and {4} lifecycle listeners, Discovered plugin xaction in xaction, Content type registered: xaction - Action Sequence, This plugin provides: 1 menu customizations, 0 content types, 0 content generators, 0 overlays, and {4} lifecycle listeners, Content generator registered: cgg for plugin cgg, Plugin cgg has registered successfully, Content generator registered: reposvc for plugin common-ui, Content generator registered: MetadataModelsSvc for plugin common-ui, Content generator registered: ChartSeriesColorSvc for plugin common-ui, Plugin common-ui has registered successfully, Plugin data-access has registered successfully, Content generator registered: ws-services for plugin BI Server default plugin, Content generator registered: ws-run for plugin BI Server default plugin, Content generator registered: ws-wsdl for plugin BI Server default plugin, Plugin BI Server default plugin has registered successfully, Plugin pentaho-cdf has registered successfully, Plugin jpivot has registered successfully, Plugin pdi-platform-plugin has registered successfully, Plugin reporting has registered successfully, Plugin test-plugin-perspective has registered successfully, Plugin url has registered successfully, Plugin xaction has registered successfully]]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.ClassFactory$1] (value [com.sun.xml.bind.v2.ClassFactory$1@61b2db6b]) and a value of type [java.util.WeakHashMap] (value [{class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.Parameters$Entries$Entry=java.lang.ref.WeakReference@25637fe9, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.ExportManifestMetadata=java.lang.ref.WeakReference@2762ad2c, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.Parameters=java.lang.ref.WeakReference@3f5737e7, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.ExportManifestMondrian=java.lang.ref.WeakReference@77173f2d, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.ExportManifestDto$ExportManifestInformation=java.lang.ref.WeakReference@1734e070, class java.util.ArrayList=java.lang.ref.WeakReference@107ae4f7, class javax.xml.bind.annotation.W3CDomHandler=java.lang.ref.WeakReference@744e1c94, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.EntityAcl=java.lang.ref.WeakReference@34367433, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.ExportManifestEntityDto=java.lang.ref.WeakReference@6306db0c, class org.pentaho.database.model.DatabaseType=java.lang.ref.WeakReference@5717239e, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.ExportManifestDto=java.lang.ref.WeakReference@302386bd, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.EntityMetaData=java.lang.ref.WeakReference@6c62fafb, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.EntityAcl$Aces=java.lang.ref.WeakReference@564bac54, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.MapAdapter=java.lang.ref.WeakReference@21eeb0f, class org.pentaho.database.model.DatabaseConnection=java.lang.ref.WeakReference@3bda26df, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.ExportManifestProperty=java.lang.ref.WeakReference@6f2e192b, class org.pentaho.platform.plugin.services.importexport.exportManifest.bindings.Parameters$Entries=java.lang.ref.WeakReference@3b768f13}]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@64ab46e4]) and a value of type [org.pentaho.platform.plugin.services.importexport.ImportSession] (value [org.pentaho.platform.plugin.services.importexport.ImportSession@62a4182b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@28bb565e]) and a value of type [org.pentaho.platform.plugin.services.importexport.ImportSession] (value [org.pentaho.platform.plugin.services.importexport.ImportSession@62a4182b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@472deca6]) and a value of type [org.pentaho.platform.engine.core.system.StandaloneSession] (value [org.pentaho.platform.engine.core.system.StandaloneSession@3e72d5c0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@472deca6]) and a value of type [org.pentaho.platform.engine.core.system.StandaloneSession] (value [org.pentaho.platform.engine.core.system.StandaloneSession@3e72d5c0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@472deca6]) and a value of type [org.pentaho.platform.engine.core.system.StandaloneSession] (value [org.pentaho.platform.engine.core.system.StandaloneSession@3e72d5c0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@472deca6]) and a value of type [org.pentaho.platform.engine.core.system.StandaloneSession] (value [org.pentaho.platform.engine.core.system.StandaloneSession@3e72d5c0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@472deca6]) and a value of type [org.pentaho.platform.engine.core.system.StandaloneSession] (value [org.pentaho.platform.engine.core.system.StandaloneSession@27afbb9]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@472deca6]) and a value of type [org.pentaho.platform.engine.core.system.StandaloneSession] (value [org.pentaho.platform.engine.core.system.StandaloneSession@27afbb9]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@472deca6]) and a value of type [org.pentaho.platform.engine.core.system.StandaloneSession] (value [org.pentaho.platform.engine.core.system.StandaloneSession@27afbb9]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.runtime.Coordinator$1] (value [com.sun.xml.bind.v2.runtime.Coordinator$1@180baacc]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@23234a36]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.ClassFactory$1] (value [com.sun.xml.bind.v2.ClassFactory$1@61b2db6b]) and a value of type [java.util.WeakHashMap] (value [{class org.pentaho.platform.repository2.unified.webservices.DateAdapter=java.lang.ref.WeakReference@61dd313f}]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.runtime.Coordinator$1] (value [com.sun.xml.bind.v2.runtime.Coordinator$1@180baacc]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@cc514b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [org.glassfish.gmbal.generic.OperationTracer$1] (value [org.glassfish.gmbal.generic.OperationTracer$1@65ed1355]) and a value of type [java.util.ArrayList] (value [[]]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.runtime.Coordinator$1] (value [com.sun.xml.bind.v2.runtime.Coordinator$1@180baacc]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@2f9065ba]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.ClassFactory$1] (value [com.sun.xml.bind.v2.ClassFactory$1@61b2db6b]) and a value of type [java.util.WeakHashMap] (value [{class org.pentaho.platform.repository2.unified.webservices.DateAdapter=java.lang.ref.WeakReference@3106aebb, class java.util.ArrayList=java.lang.ref.WeakReference@2db99022, class com.sun.xml.ws.runtime.config.MetroConfig=java.lang.ref.WeakReference@71a5bfa1, class com.sun.xml.ws.runtime.config.Tubelines=java.lang.ref.WeakReference@38c81d51, class javax.xml.bind.annotation.W3CDomHandler=java.lang.ref.WeakReference@59fccdf6, class com.sun.xml.ws.runtime.config.TubeFactoryConfig=java.lang.ref.WeakReference@6435ffa1, class com.sun.xml.ws.runtime.config.TubeFactoryList=java.lang.ref.WeakReference@1521d66d, class javax.xml.bind.annotation.adapters.CollapsedStringAdapter=java.lang.ref.WeakReference@608498f1, class com.sun.xml.ws.runtime.config.TubelineDefinition=java.lang.ref.WeakReference@215527b8}]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.runtime.Coordinator$1] (value [com.sun.xml.bind.v2.runtime.Coordinator$1@180baacc]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@5da2b220]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.ClassFactory$1] (value [com.sun.xml.bind.v2.ClassFactory$1@61b2db6b]) and a value of type [java.util.WeakHashMap] (value [{class org.pentaho.platform.repository2.unified.webservices.DateAdapter=java.lang.ref.WeakReference@645c82e6}]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [org.pentaho.di.core.logging.KettleLogLayout$1] (value [org.pentaho.di.core.logging.KettleLogLayout$1@7595fd83]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@129110e0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.runtime.Coordinator$1] (value [com.sun.xml.bind.v2.runtime.Coordinator$1@180baacc]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@4a36dfc4]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.runtime.Coordinator$1] (value [com.sun.xml.bind.v2.runtime.Coordinator$1@180baacc]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@589ce2ec]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [com.sun.xml.bind.v2.ClassFactory$1] (value [com.sun.xml.bind.v2.ClassFactory$1@61b2db6b]) and a value of type [java.util.WeakHashMap] (value [{class org.pentaho.platform.repository2.unified.webservices.DateAdapter=java.lang.ref.WeakReference@23f62167, class javax.xml.bind.annotation.W3CDomHandler=java.lang.ref.WeakReference@740b03a2}]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:38 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/pentaho] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2bef692]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+2014-12-2 13:40:40 org.apache.coyote.http11.Http11Protocol destroy
+信息: Stopping Coyote HTTP/1.1 on http-8080
