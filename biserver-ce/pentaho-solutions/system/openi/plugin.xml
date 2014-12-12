@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin title='openi plugin for pentaho' name='openi' loader="DEFAULT">
+	<!-- <bean id='openiAction' class='org.openi.actions.OpenIAction' /> -->
+	<!-- <menu-items>
+		<menu-item id="new-openi-analysis" anchor="file-new-submenu"
+			label="OpenI Analysis Report..." command="content/openianalysis/RenderOAnalysis?actionType=new"
+			type="MENU_ITEM" how="LAST_CHILD" />
+	</menu-items>
+	
+	<overlays>
+		<overlay id="startup.openianalysis" resourcebundle="../content/openianalysis/ui/openi.properties">
+			<overlay id="startup.openianalysis">
+				<toolbar id="mainToolbar">
+					<toolbarbutton id="openOpenIAnalysis" image="../content/openianalysis/images/openi-analysis-small.png"
+						onclick="mainToolbarHandler.openUrl('OpenI Analysis Report', 'OpenI Analysis Report', 'content/openianalysis/RenderOAnalysis?actionType=new')"
+						tooltiptext="${new-openi-analysis-label}" insertafter="newAnalysisButton" />
+				</toolbar>
+			</overlay>
+		</overlay>
+		
+		<overlay id="launch" resourcebundle="content/openi/openi.properties">
+			<button id="openi-analysis-btn" image="content/openi/ui/images/openi-analysis.png" 
+							command="openURL('OpenI Analysis Report', 'OpenI Analysis Report', 'content/openianalysis/RenderOAnalysis?actionType=new')"
+							label="${new-openi-analysis-label}" />
+		</overlay>
+	</overlays>
+	--> 
+	
+	<overlays>
+		<overlay id="startup.openi"  resourcebundle="content/openi/ui/openi.properties" priority="1">
+	  		<menubar id="newmenu">
+	  			<menuitem id="openOpenIAnalysis" label="New OpenI Analysis Report" command="mantleXulHandler.openUrl('OpenI Analysis Report','OpenI Analysis Report','content/openi/RenderOAnalysis?actionType=new')" />
+	  		</menubar>				
+	    </overlay>
+	    
+	    <overlay id="launch"> 
+	    	<button id="openi-analysis-btn" label="New OpenI Analysis Report" command="Home.openFile('OpenI Analysis Report','OpenI Analysis Report', 'content/openi/RenderOAnalysis?actionType=new');$('#btnCreateNew').popover('hide')"/> 
+	    </overlay>
+    </overlays>
+    
+    <!--
+	<content-generator id="openianalytics" title="openianalytics" type="notused" class="org.openi.pentaho.plugin.ServletAdapterContentGenerator"/>
+	-->
+	
+	<content-generator id="openi"
+		title="OpenI Analysis Report Generator" type="openi"
+		class="org.openi.pentaho.plugin.OpenIAnalysisContentGenerator" />
+
+	<content-type type="openi" mime-type="text/html">
+		<title>OpenI Analysis Report</title>
+		<description>OpenI Analysis Report File</description>
+		<icon-url>content/openi/images/openi-analysis-small.png</icon-url>
+		<meta-provider>org.openi.pentaho.plugin.OpenIContentTypeMetaProvider</meta-provider>
+		<operations>
+	    	<operation>
+    			<id>RUN</id>
+    			<perspective>run</perspective>
+    		</operation>
+    		<operation>
+    			<id>NEWWINDOW</id>
+    			<perspective>run</perspective>
+    		</operation> 
+    		<operation>
+    			<id>EDIT</id>
+    			<perspective>run</perspective>
+    		</operation> 		
+        </operations>
+	</content-type>
+
+	<static-paths>
+		<static-path url="/openi/ui"
+			localFolder="ui" />
+		<static-path url="/openi/styles"
+			localFolder="ui/resources/styles" />
+		<static-path url="/openi/images"
+			localFolder="ui/resources/images" />
+		<static-path url="/openi/scripts"
+			localFolder="ui/resources/scripts" />
+		<static-path url="/openi/jpivot"
+			localFolder="ui/resources/jpivot" />
+		<static-path url="/openi/wcf"
+			localFolder="ui/resources/wcf" />
+		<static-path url="/openi/views"
+			localFolder="ui/views" />
+	</static-paths>
+
+</plugin>
+

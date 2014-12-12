@@ -1,0 +1,56 @@
+<org.openi.analysis.Analysis>
+  <analysisTitle>OpeniAnalyTest</analysisTitle>
+  <mdxQuery>select {[Measures].[Quantity], [Measures].[Sales]} ON COLUMNS,
+  {[Markets].Children} ON ROWS
+from [SteelWheelsSales]
+</mdxQuery>
+  <dataSourceName>SteelWheels</dataSourceName>
+  <dsType>MONDRIAN</dsType>
+  <foregroundAlpha>1.0</foregroundAlpha>
+  <showPareto>false</showPareto>
+  <showChart>true</showChart>
+  <showTable>true</showTable>
+  <chartTitle></chartTitle>
+  <chartType>1</chartType>
+  <chartHeight>473</chartHeight>
+  <chartWidth>1140</chartWidth>
+  <fontName>Verdana</fontName>
+  <fontStyle>1</fontStyle>
+  <fontSize>18</fontSize>
+  <useChartSize>false</useChartSize>
+  <showLegend>true</showLegend>
+  <legendFontName>Verdana</legendFontName>
+  <legendFontStyle>0</legendFontStyle>
+  <legendFontSize>11</legendFontSize>
+  <legendPosition>2</legendPosition>
+  <showSlicer>true</showSlicer>
+  <slicerPosition>1</slicerPosition>
+  <slicerAlignment>4</slicerAlignment>
+  <slicerFontName>Verdana</slicerFontName>
+  <slicerFontStyle>0</slicerFontStyle>
+  <slicerFontSize>11</slicerFontSize>
+  <axisFontName>Verdana</axisFontName>
+  <axisFontStyle>0</axisFontStyle>
+  <axisFontSize>11</axisFontSize>
+  <horizAxisLabel></horizAxisLabel>
+  <vertAxisLabel></vertAxisLabel>
+  <axisTickFontName>Verdana</axisTickFontName>
+  <axisTickFontStyle>0</axisTickFontStyle>
+  <axisTickFontSize>11</axisTickFontSize>
+  <drillThroughEnabled>false</drillThroughEnabled>
+  <chartDrillThroughEnabled>false</chartDrillThroughEnabled>
+  <drillReplaceEnabled>false</drillReplaceEnabled>
+  <drillPositionEnabled>true</drillPositionEnabled>
+  <tickLabelRotate>30</tickLabelRotate>
+  <bgColorR>255</bgColorR>
+  <bgColorG>255</bgColorG>
+  <bgColorB>255</bgColorB>
+  <showNonEmpty>false</showNonEmpty>
+  <levelStyle>false</levelStyle>
+  <hideSpans>false</hideSpans>
+  <showCustomLabels>false</showCustomLabels>
+  <drillthroughSQL></drillthroughSQL>
+  <drillthroughDatasource></drillthroughDatasource>
+  <viewOnlyMode>false</viewOnlyMode>
+  <suppressCrowdedLabels>true</suppressCrowdedLabels>
+</org.openi.analysis.Analysis>

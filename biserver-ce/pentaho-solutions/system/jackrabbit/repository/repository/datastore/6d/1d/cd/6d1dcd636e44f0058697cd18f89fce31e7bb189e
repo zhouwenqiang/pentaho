@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title> </title>
+    <meta name="generator" content="Pentaho Reporting Engine Classic version 5.0-SNAPSHOT.development" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link type="text/css" rel="stylesheet" href="/pentaho/getImage?image=style456922995.css" />
+  </head>
+  <body>
+    <table cellspacing="0" cellpadding="0" class="style-0">
+      <col style="width: 25pt" />
+      <col style="width: 2pt" />
+      <col style="width: 107pt" />
+      <col style="width: 108pt" />
+      <col style="width: 88pt" />
+      <col style="width: 20pt" />
+      <col style="width: 108pt" />
+      <col style="width: 21pt" />
+      <col style="width: 15pt" />
+      <col style="width: 14pt" />
+      <col style="width: 2pt" />
+      <col style="width: 45pt" />
+      <tr style="height: 10pt">
+        <td class="style-1">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 2pt">
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+      </tr>
+      <tr style="height: 7pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 2pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td rowspan="2" colspan="6" valign="middle" class="style-3">Sales Variance</td>
+      </tr>
+      <tr style="height: 28pt">
+        <td rowspan="2" colspan="5" valign="top" class="style-4"><img src="/pentaho/getImage?image=sw_logo85236174.jpeg" border="0" class="style-5" /></td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 23pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td rowspan="2" colspan="6" valign="middle" class="style-6">Run Time:  十二月 9, 2014  09:41 上午 CST</td>
+      </tr>
+      <tr style="height: 7pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 2pt">
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+        <td class="style-2">&nbsp;</td>
+      </tr>
+      <tr style="height: 5pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 15pt">
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+      </tr>
+      <tr style="height: 29pt">
+        <td class="style-1">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td valign="middle" class="style-8">Territory</td>
+        <td valign="middle" class="style-9">2003</td>
+        <td colspan="2" valign="middle" class="style-9">2004</td>
+        <td valign="middle" class="style-9">Variance</td>
+        <td colspan="4" valign="middle" class="style-10">Trend</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 4pt">
+        <td class="style-1">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td rowspan="3" valign="middle" class="style-11">APAC</td>
+        <td rowspan="3" valign="middle" class="style-12">$343,082</td>
+        <td rowspan="3" colspan="2" valign="middle" class="style-12">$601,606</td>
+        <td rowspan="3" valign="middle" class="style-12">$258,524</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 15pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td valign="top" class="style-14"><img src="/pentaho/getImage?image=variancegreenUP.gif" border="0" class="style-15" /></td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 8pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 4pt">
+        <td class="style-1">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td rowspan="3" valign="middle" class="style-16">EMEA</td>
+        <td rowspan="3" valign="middle" class="style-17">$1,681,987</td>
+        <td rowspan="3" colspan="2" valign="middle" class="style-17">$2,396,408</td>
+        <td rowspan="3" valign="middle" class="style-17">$714,420</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 15pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td valign="top" class="style-18"><img src="/pentaho/getImage?image=variancegreenUP.gif" border="0" class="style-15" /></td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 2pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 4pt">
+        <td class="style-1">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td rowspan="3" valign="middle" class="style-11">Japan</td>
+        <td rowspan="3" valign="middle" class="style-12">$292,558</td>
+        <td rowspan="3" colspan="2" valign="middle" class="style-12">$168,479</td>
+        <td rowspan="3" valign="middle" class="style-19">-$124,078</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 15pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td valign="top" class="style-14"><img src="/pentaho/getImage?image=varianceredDOWN.gif" border="0" class="style-15" /></td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 8pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td class="style-13">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 4pt">
+        <td class="style-1">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td rowspan="3" valign="middle" class="style-16">NA</td>
+        <td rowspan="3" valign="middle" class="style-17">$1,359,757</td>
+        <td rowspan="3" colspan="2" valign="middle" class="style-17">$1,821,247</td>
+        <td rowspan="3" valign="middle" class="style-17">$461,489</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 15pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td valign="top" class="style-18"><img src="/pentaho/getImage?image=variancegreenUP.gif" border="0" class="style-15" /></td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 2pt">
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+        <td style="font-size: 1pt">&nbsp;</td>
+      </tr>
+      <tr style="height: 27pt">
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td valign="middle" class="style-20">Totals:</td>
+        <td valign="middle" class="style-21">$3,677,384</td>
+        <td colspan="2" valign="middle" class="style-21">$4,987,740</td>
+        <td valign="middle" class="style-22">$1,310,356</td>
+        <td class="style-23">&nbsp;</td>
+        <td class="style-23">&nbsp;</td>
+        <td class="style-23">&nbsp;</td>
+        <td class="style-23">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+      </tr>
+      <tr style="height: 41pt">
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+      </tr>
+      <tr style="height: 357pt">
+        <td class="style-7">&nbsp;</td>
+        <td colspan="9" valign="top" class="style-24"><img src="/pentaho/getImage?image=picture1366555247.png" border="0" class="style-25" /></td>
+        <td class="style-7">&nbsp;</td>
+        <td class="style-7">&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+
+</html>

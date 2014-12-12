@@ -1,0 +1,110 @@
+2014-12-9 9:13:01 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2014-12-9 9:13:52 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2014-12-9 9:14:02 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2014-12-9 9:14:30 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2014-12-9 9:14:34 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2014-12-9 9:15:22 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2014-12-9 9:15:29 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2014-12-9 9:19:48 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet jaxrsEndpoint-spring threw exception
+java.io.IOException: Error generating content from content generator with id [generatedContent]
+	at org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutput.write(GeneratorStreamingOutput.java:163)
+	at org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutputProvider.writeTo(GeneratorStreamingOutputProvider.java:58)
+	at org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutputProvider.writeTo(GeneratorStreamingOutputProvider.java:37)
+	at com.sun.jersey.spi.container.ContainerResponse.write(ContainerResponse.java:306)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1479)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+	at org.pentaho.platform.web.servlet.JAXRSServlet.service(JAXRSServlet.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.pentaho.platform.web.servlet.JAXRSServlet.service(JAXRSServlet.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.PentahoWebContextFilter.doFilter(PentahoWebContextFilter.java:163)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.PentahoRequestContextFilter.doFilter(PentahoRequestContextFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.basicauth.BasicProcessingFilter.doFilterHttp(BasicProcessingFilter.java:174)
+	at org.pentaho.platform.web.http.security.PentahoBasicProcessingFilter.doFilterHttp(PentahoBasicProcessingFilter.java:88)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.pentaho.platform.web.http.filters.HttpSessionPentahoSessionIntegrationFilter.doFilter(HttpSessionPentahoSessionIntegrationFilter.java:265)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.SystemStatusFilter.doFilter(SystemStatusFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:112)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.WebappRootForwardingFilter.doFilter(WebappRootForwardingFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:470)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:606)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.NullPointerException
+	at org.pentaho.platform.web.http.api.resources.XactionUtil.executeHtml(XactionUtil.java:199)
+	at org.pentaho.platform.web.http.api.resources.XactionUtil.execute(XactionUtil.java:335)
+	at org.pentaho.platform.web.http.ActionSequenceContentGenerator.createContent(ActionSequenceContentGenerator.java:61)
+	at org.pentaho.platform.engine.services.solution.SimpleContentGenerator.createContent(SimpleContentGenerator.java:57)
+	at org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutput.generateContent(GeneratorStreamingOutput.java:229)
+	at org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutput.write(GeneratorStreamingOutput.java:156)
+	... 66 more
+2014-12-9 9:23:45 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2014-12-9 9:28:08 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2014-12-9 9:28:55 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2014-12-9 9:28:59 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2014-12-9 9:29:24 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2014-12-9 9:29:49 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2014-12-9 9:30:37 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+2014-12-9 9:30:53 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+2014-12-9 10:56:11 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
